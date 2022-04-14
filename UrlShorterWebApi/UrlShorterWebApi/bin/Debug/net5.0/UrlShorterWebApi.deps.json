@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "UrlShorterWebApi/1.0.0": {
         "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "6.0.4",
           "Swashbuckle.AspNetCore": "5.6.3",
           "sqlite-net-pcl": "1.8.116",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -326,6 +327,20 @@
           "UrlShorterWebApi.dll": {}
         }
       },
+      "Microsoft.Data.Sqlite.Core/6.0.4": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.422.16106"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
@@ -354,7 +369,7 @@
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.core": "2.0.6",
           "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
           "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
         },
@@ -373,14 +388,14 @@
           "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.0.4": {
+      "SQLitePCLRaw.core/2.0.6": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "2.0.4.976",
-            "fileVersion": "2.0.4.976"
+            "assemblyVersion": "2.0.6.1341",
+            "fileVersion": "2.0.6.1341"
           }
         },
         "compile": {
@@ -458,7 +473,7 @@
       },
       "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
+          "SQLitePCLRaw.core": "2.0.6"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {
@@ -2224,6 +2239,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Data.Sqlite.Core/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3TZX7R2aX1TX5m4A5Kj+SY633NJDeHDP6JiDRCwUnJGKC3IrHgnO8p+oT2hRZpN168qx4Ixe4T9C+xZdZc26gw==",
+      "path": "microsoft.data.sqlite.core/6.0.4",
+      "hashPath": "microsoft.data.sqlite.core.6.0.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2252,12 +2274,12 @@
       "path": "sqlitepclraw.bundle_green/2.0.4",
       "hashPath": "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.core/2.0.4": {
+    "SQLitePCLRaw.core/2.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
-      "path": "sqlitepclraw.core/2.0.4",
-      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+      "sha512": "sha512-Vh8n0dTvwXkCGur2WqQTITvk4BUO8i8h9ucSx3wwuaej3s2S6ZC0R7vqCTf9TfS/I4QkXO6g3W2YQIRFkOcijA==",
+      "path": "sqlitepclraw.core/2.0.6",
+      "hashPath": "sqlitepclraw.core.2.0.6.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
       "type": "package",

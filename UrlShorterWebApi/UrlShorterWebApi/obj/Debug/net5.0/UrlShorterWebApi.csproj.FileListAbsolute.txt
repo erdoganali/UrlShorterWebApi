@@ -44,3 +44,4 @@ C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWe
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\net5.0\ref\UrlShorterWebApi.dll
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\net5.0\UrlShorterWebApi.pdb
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\net5.0\UrlShorterWebApi.genruntimeconfig.cache
+C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
