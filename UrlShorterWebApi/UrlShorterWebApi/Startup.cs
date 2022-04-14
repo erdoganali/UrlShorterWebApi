@@ -6,7 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using UrlShorter.Data;
 using UrlShorter.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore; 
+using Swashbuckle.AspNetCore;
 
 namespace UrlShorter
 {
