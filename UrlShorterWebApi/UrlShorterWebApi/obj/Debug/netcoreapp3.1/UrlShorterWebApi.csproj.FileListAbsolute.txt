@@ -1,4 +1,3 @@
-C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\netcoreapp3.1\UrlShorterWebApi.csproj.AssemblyReference.cache
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\netcoreapp3.1\UrlShorterWebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\netcoreapp3.1\UrlShorterWebApi.AssemblyInfoInputs.cache
 C:\Users\TCALERDOGAN\source\repos\UrlShorterWebApi\UrlShorterWebApi\UrlShorterWebApi\obj\Debug\netcoreapp3.1\UrlShorterWebApi.AssemblyInfo.cs

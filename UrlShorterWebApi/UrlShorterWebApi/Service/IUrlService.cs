@@ -6,6 +6,8 @@ namespace UrlShorter.Services
     {
         UrlModel GetUrl(string path);
 
-        string UrlSave(string originalUrl);
+        string UrlSave(string originalUrl, int hashLenght);
+
+        string UrlSave(string originalUrl, string yourchoosedname, int hashLenght);
     }
 }

@@ -7,7 +7,7 @@ namespace UrlShorter.Models
          
         public int Id { get; set; }
         public string Url { get; set; }
-        public string OriginalUrl { get; set; }
+        public string OriginalUrl { get; set; } 
         public DateTime DueDate { get; set; }
          
     }

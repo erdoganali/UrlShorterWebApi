@@ -5,9 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using UrlShorter.Data;
-using UrlShorter.Models;
-using Microsoft.EntityFrameworkCore; 
-using Swashbuckle.AspNetCore;
+using UrlShorter.Models; 
+using Microsoft.EntityFrameworkCore;
+using UrlShorter.Services;
 
 namespace UrlShorter
 {
@@ -33,7 +33,7 @@ namespace UrlShorter
             services.AddDbContext<UrlDbContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
-
+            services.AddScoped<IUrlService, UrlService>();
 
         }
 
